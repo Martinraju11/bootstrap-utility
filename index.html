@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<style>
+	table,th,td{
+	border:1px solid black;
+	border-collapse:collapse;
+	text-align:center;
+	margin:auto;
+	}
+	caption{
+	text-align:center;
+	}
+	</style>
+		
+	</head>
+		<body>
+		<table>
+			<caption>Bootstrap Utilities</caption>
+				<tr>
+					<th>Property/Utility</th>
+					<th>Bootstrap usage name</th>
+					<th>Values</th>
+					<th>Sample Output</th>
+				</tr>
+				<tr>
+					<th>Background color</th>
+					<td>.bg-</td>
+					<td>.bg-primary<br>.bg-secondary<br>.bg-success<br>.bg-danger<br>.bg-warning<br>.bg-info<br>.bg-light<br>.bg-dark<br>.bg-body<br>.bg-white<br>.bg-transparent<br></td>
+					<td><div class="p-3 mb-2 bg-primary text-white">Welcome</div></td>
+				</tr>
+				
+				<tr>
+					<th>Background Gradient</th>
+					<td>.bg-gradient</td>
+					<td>.bg-primary .bg-gradient<br>.bg-secondary .bg-gradient<br>.bg-success .bg-gradient<br>.bg-danger .bg-gradient<br>.bg-warning .bg-gradient<br>.bg-info .bg-gradient<br>.bg-light .bg-gradient<br>.bg-dark .bg-gradient<br>.bg-body .bg-gradient<br>.bg-white .bg-gradient<br>.bg-transparent .bg-gradient<br></td>
+					<td><div class="p-3 mb-2 bg-primary text-white bg-gradient">Welcome</div></td>
+				</tr>
+				
+				<tr>
+					<th>Background Opacity</th>
+					<td>.bg-opacity-</td>
+					<td>.bg-opacity-100<br>.bg-opacity-75<br>.bg-opacity-50<br>.bg-opacity-25<br>.bg-opacity-10<br></td>
+					<td><div class="bg-success p-2 text-dark bg-opacity-50">File Uploaded Successfully 25</div></td>
+				</tr>
+				
+				<tr>
+					<th>Border(additive)</th>
+					<td>.border-</td>
+					<td>.border<br>.border-top<br>.border-bottom<br>.border-start<br>.border-end<br></td>
+					<td><span class="border-top p-2 m-2 border-3">Welcome</span></td>
+				</tr>
+				
+				<tr>
+					<th>Border(subtractive)</th>
+					<td>.border-</td>
+					<td>.border border-0<br>.border border-top-0<br>.border border-end-0<br>.border border-bottom-0<br>.border border-start-0<br></td>
+					<td><span class="border border-bottom-0 border-top-0 p-2 m-2 border-3">Open</span></td>
+				</tr>
+				
+				<tr>
+					<th>Border color</th>
+					<td>.border-</td>
+					<td>.border border-primary<br>.border border-secondary<br>.border border-success<br>.border border-danger<br>.border border-warning<br>border border-info<br>border border-light<br>border border-dark<br>border border-white</td>
+					<td><span class="border border-success border-3 p-2 m-4">Dialog box</span></td>
+				</tr>
+				
+				<tr>
+					<th>Border opacity</th>
+					<td>.border-opacity-</td>
+					<td>.border border-opacity-100<br>.border border-opacity-75<br>.border border-opacity-50<br>.border border-opacity-25<br>.border border-opacity-10<br></td>
+					<td><div class="border border-success border-3 p-2 mb-2 border-opacity-25">Login Page(25 opacity}</div></td>
+				</tr>
+				
+				<tr>
+					<th>Border width</th>
+					<td>.border-</td>
+					<td>.border border-1<br>.border border-2<br>.border border-3<br>.border border-4<br>.border border-5<br></td>
+					<td><div class="border border-danger border-5 p-2 mb-2">Login Page(25 opacity}</div></td>
+				</tr>
+				
+				<tr>
+					<th>Border radius</th>
+					<td>.rounded-</td>
+					<td>.border rounded<br>.border rounded-top<br>.border rounded-end<br>.border rounded-bottom<br>.border rounded-start<br>.border rounded-circle<br>.border rounded-pill<br>.border rounded-0<br>.border rounded-1<br>.border rounded-2<br>.border rounded-3<br>.border rounded-4<br>.border rounded-5<br></td>
+					<td><span class=" border border-3 border-warning m-4 rounded-pill p-2">Dialog box</span></td>
+				</tr>
+				
+				<tr>
+					<th>Text color</th>
+					<td>.text-</td>
+					<td>.text-primary<br>.text-secondary<br>.text-success<br>.text-danger<br>.text-warning<br>.text-info<br>.text-light<br>.text-dark<br>.text-body<br>.text-white<br>.text-transparent<br></td>
+					<td><div class="text-primary p-2 m-2 bg-danger border border-3 border-dark rounded-top">Shopping Mart</div></td>
+				</tr>
+				
+				<tr>
+					<th>Text opacity</th>
+					<td>.text-opacity-</td>
+					<td>.text-opacity-100<br>.text-opacity-75<br>.text-opacity-50<br>.text-opacity-25<br></td>
+					<td><div class="text-primary text-opacity-25 p-2 m-2  border border-3 border-dark rounded">Shopping Mart</div></td>
+				</tr>
+				
+				<tr>
+					<th>Display</th>
+					<td>.d-</td>
+					<td>.d-none<br>.d-flex<br>.d-block<br>.d-inline<br>.d-inline-block<br>.d-grid<br>.d-inline-flex<br></td>
+					<td><div class="d-flex flex-row-reverse flex-nowrap justify-content-center mb-3 border border-2 border-dark">
+					<div class="p-2">box1</div>
+					<div class="p-2">box 2</div>
+					<div class="p-2">box 3</div>
+					</div></td>
+				</tr>
+				
+				<tr>
+					<th>Flex</th>
+					<td>.flex-</td>
+					<td>.flex-row<br>.flex-row-reverse<br>.flex-column<br>.flex-column-reverse<br>.justify-content-start<br>.justify-content-end<br>.justify-content-center<br>.justify-content-between<br>.justify-content-around<br>.justify-content-evenly<br>.align-items-start<br>.align-items-end<br>.align-items-center<br>.align-items-baseline<br>.align-items-stretch<br>.align-self-start<br>.align-self-end<br>.align-self-center<br>.align-self-baseline<br>.align-self-stretch<br>.flex-nowrap<br>.flex-wrap<br>.flex-wrap-reverse<br>.order-0<br>..order-1<br>.order-2<br>..order-3<br>.order-4<br>.order-5<br>.align-content-start<br>.align-content-end<br>.align-content-center<br>.align-content-between<br>.align-content-around<br>.align-content-stretch<br></td>
+					<td><div class="d-flex flex-nowrap justify-content-evenly align-items-center mb-3 border border-2 border-dark "style="height:200px">
+					<div class="p-2 order-2">box1</div>
+					<div class="p-2 order-1">box 2</div>
+					<div class="p-2 order-3">box 3</div>
+					</div></td>
+				</tr>
+				
+				<tr>
+					<th>Float</th>
+					<td>.float-</td>
+					<td>.float-start<br>.float-end<br>.float-none<br></td>
+					<td><div class="float-start">Starting Point</div><br></td>
+				</tr>
+				
+				<tr>
+					<th>opacity</th>
+					<td>.opacity-</td>
+					<td>.opacity-100<br>.opacity-75<br>.opacity-50<br>.opacity-25<br></td>
+					<td><div class="opacity-50 bg-warning text-dark border border-3 border-danger">Request</div></td>
+				</tr>
+				
+				<tr>
+					<th>overflow</th>
+					<td>.overflow-</td>
+					<td>.overflow-auto<br>.overflow-hidden<br>.overflow-visible<br>.overflow-scroll<br></td>
+					<td><div class="overflow-scroll mb-2 p-4 " style="height:100px">t or a rem ipsum may be used as</div></td>
+				</tr>
+				
+				
+				<tr>
+					<th>shadow</th>
+					<td>.shadow-</td>
+					<td>.shadow-none<br>.shadow-sm<br>.shadow<br>.shadow-lg<br></td>
+					<td><div class="shadow-lg p-3 mb-5 bg-body rounded">Box1</div></td>
+				</tr>
+				
+				<tr>
+					<th>sizing</th>
+					<td>.w- .h- .vw- .vh-</td>
+					<td>.w-25<br>.w-50<br>.w-75<br>.w-100<br>w-auto<br>h-25<br>h-50<br>h-75<br>h-100<br>h-auto<br>mw-100<br>mh-100<br>min-vw-100<br>min-vh-100<br>vw-100<br>vh-100<br></td>
+					<td><div class=" mb-2 p-4 w-25">t or a rem ipsum may be used as</div></td>
+				</tr>
+				
+				
+				<tr>
+					<th>spacing</th>
+					<td>.p- .m-</td>
+					<td>.p-1<br>.p-2<br>.p-3<br>.p-4<br>.p-5<br>.m-1<br>.m-2<br>.m-3<br>.m-4<br>.m-5<br>px(1-5)<br>py(1-5)<br>pt(1-5)<br>pb(1-5)<br>ps(1-5)<br>pe(1-5)<br>mx(1-5)<br>my(1-5)<br>mt(1-5)<br>mb(1-5)<br>ms(1-5)<br>me(1-5)<br></td>
+					<td><div class=" p-3 my-5 bg-light rounded border border-3 border-dark ">Box1</div></td>
+				</tr>
+				
+				<tr>
+					<th>Text properties</th>
+					<td>.text-</td>
+					<td>.text-start<br>.text-center<br>.text-end<br>.text-lowercase<br>.text-uppercase<br>.text-capitalize</td>
+					<td><p class="text-center">Heading.</p></td>
+				</tr>
+				
+				<tr>
+					<th>Font</th>
+					<td>.fs- .fw- .fst-</td>
+					<td>.fs-(1-6)<br>.fw-bold<br>.fw-bolder<br>.fw-semibold<br>.fw-normal<br>.fw-light<br>.fw-lighter<br>fst-italic<br>fst-normal<br>font-monospace<br></td>
+					<td><p class="fst-italic fs-3"> text.</p></td>
+				</tr>
+				
+				<tr>
+					<th>Line height</th>
+					<td>.lh-</td>
+					<td>.lh-1<br>.lh-sm<br>.lh-base<br>.lh-lg<br></td>
+					<td><p class="lh-lg w-25"> sometimes the parent element.d with our utility API.</p></td>
+				</tr>
+				
+				<tr>
+					<th>Visibility</th>
+					<td>visible</td>
+					<td>.visible<br>.invisible<br></td>
+					<td><p class="visible"> text.</p></td>
+				</tr>
+				
+				<tr>
+					<th>Position</th>
+					<td>.position-</td>
+					<td>.position-static<br>.position-relative<br>.position-absolute<br>.position-fixed<br>.position-sticky<br></td>
+					<td><div class="position-relative p-5 border border-danger border-3">
+					<div class="position-absolute top-0 start-0 bg-dark">Text-position</div>
+					</div></td>
+				</tr>
+		</table>
+		</body>
+</html>
